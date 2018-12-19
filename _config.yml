@@ -15,10 +15,10 @@ keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构
 encoding: "utf-8"
 favicon: favicon.png 
 
-repository: despairyoke/despairyoke.github.io
-github_url: https://github.com/despairyoke
+repository: hansn007/hansn007.github.io
+github_url: https://github.com/hansn007
 cnblog_url: http://www.cnblogs.com/ityouknow
-url: https://despairyoke.github.io
+url: https://hansn007.github.io
 enforce_ssl: ityouknow.com
 
 ## Gem
