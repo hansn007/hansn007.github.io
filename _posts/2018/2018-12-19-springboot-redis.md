@@ -7,21 +7,24 @@ tags: [springboot]
 
 ### 需要引入redis依赖
 
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-redis</artifactId>
 </dependency>
+```
 
 ### 设置连接redis的配置
 
 Redis配置
-
+```
 spring.redis.port=6379
 spring.redis.host=your host
 spring.redis.password=your password
+```
 
 ###配置redis连接
-
+```java
 @Configuration
 public class RedisConfig {
 
@@ -46,8 +49,12 @@ public class RedisConfig {
         return redisTemplate;
     }
 }
+```
+
 
 ###开始使用
+
+```java
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringbootRedisApplicationTests {
@@ -68,3 +75,4 @@ public class SpringbootRedisApplicationTests {
 	}
 
 }
+```
