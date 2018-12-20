@@ -23,7 +23,7 @@ spring.redis.host=your host
 spring.redis.password=your password
 ```
 
-###配置redis连接
+### 配置redis连接
 ```java
 @Configuration
 public class RedisConfig {
@@ -69,7 +69,7 @@ public class SpringbootRedisApplicationTests {
 		System.out.println(s);
 
 		//设置过期时间
-		stringRedisTemplate.opsForValue().set("name1","hansn",10,TimeUnit.MINUTES);
+		stringRedisTemplate.opsForValue().set("name1","hansn007",10,TimeUnit.MINUTES);
 		String s1 = stringRedisTemplate.opsForValue().get("name1");
 		System.out.println(s1);
 	}
